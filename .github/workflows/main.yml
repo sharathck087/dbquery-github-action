@@ -1,15 +1,5 @@
+on: [push]
 
-name: Main 
-on:
-  
-  workflow_dispatch:
-    inputs:
-      branch:
-        description: Branch name
-        required: true
-        default: main
-      deploy_message:
-        description: Deploy Description
 jobs:
   test:
     runs-on: ubuntu-latest
