@@ -7,7 +7,7 @@ on:
       branch:
         description: Branch name
         required: true
-        default: master
+        default: main
       deploy_message:
         description: Deploy Description
 jobs:
